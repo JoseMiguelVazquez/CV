@@ -1,0 +1,269 @@
+
+/*RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+body {
+    width: 100vw;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    color:rgb(1, 46, 59);
+}
+
+header {
+    background-color:rgb(104, 186, 201);
+    /*height: 200px;*/
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+nav ul {
+    background-color: rgb(0, 68, 88);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    color: rgb(198, 214, 214);
+    list-style: none;
+}
+
+nav ul li {
+    margin: 20px;
+}
+
+.titulo {
+    text-align: center;
+    height: 150px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.titulo h2 {
+    font-weight: 400;
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    justify-content: stretch;
+    flex-flow: row nowrap;
+}
+
+.leftColumn {
+    background-color:rgb(227, 250, 250);
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    text-align: justify;
+    padding: 0 20px;
+    justify-content: space-evenly;
+
+}
+
+.leftColumn section {
+    padding-top: 20px;
+}
+
+.leftColumn section:last-of-type {
+    padding-bottom: 20px;
+}
+
+.summaryText {
+    padding-top: 20px;
+}
+
+.work {
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-evenly;     
+}
+
+.work article {
+    padding-top: 20px;
+}
+
+.studies {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.studies article {
+    padding-top: 20px;
+}
+
+.rightColumn {
+    background-color: rgb(0, 68, 88);
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    text-align: justify;
+    padding: 0 18px 0 18px;
+    justify-content: space-evenly;
+    color: rgb(198, 214, 214);
+}
+
+.hr-derecho {
+    border-color: rgb(198, 214, 214); 
+    height: 2px;
+    margin-bottom: 15px;
+}
+
+.rightColumn section {
+    padding-top: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image-profile {
+    min-width: 100px;
+    max-width: 30%;
+    height: auto;
+    /*object-fit: contain;*/
+}
+
+.skills {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    text-align: left;
+    font-size: 0.875rem;
+    margin-left: 12px;
+}
+
+.skills article {
+    margin-bottom: 25px;
+}
+
+.smallTitle {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    margin-left: -12px;
+}
+
+.skills article ul {
+    list-style: circle;
+}
+
+article ul li span {
+    margin-left: -5px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color:rgb(104, 186, 201);    
+    width: auto;
+    height: 100px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+footer section {
+    margin: 0 5px 0 5px;
+    width: 400px;
+}
+
+hr {
+    border-color: rgb(11, 14, 32); 
+    height: 2px;
+}
+
+.social {
+    font-size: 1.1rem;
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+a {
+    color:rgb(1, 46, 59);
+}
+
+a:visited {
+    color: rgb(2, 71, 90);
+}
+
+.navLink {
+    color: rgb(233, 245, 252); 
+}
+
+.navLink:visited {
+    color: rgb(195, 218, 231); 
+}
+
+.social li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#LI-logo {
+    width: 35px;
+    margin-left: -2px;
+}
+
+#GH-logo {
+    width: 28px;
+    margin-left: 2px;
+}
+
+#T-logo {
+    width: 23px;
+    margin-left: 3px;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen 
+    and (min-device-width: 320px)
+    and (max-device-width: 480px) {
+        nav ul li {
+            margin: 20px 20px 0px 20px;
+        }
+        nav ul li:last-of-type {
+            margin: 20px;
+        }
+    }
+
+        
+
+/*add portfolio link (or projects)*/

@@ -1,0 +1,29 @@
+.padre {
+    position: relative;
+    width: 100vw;
+    height: 2000px;
+    background-color: aqua;
+}
+
+.hijo1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    position: relative;
+    top: 300px;
+    left: 300px;
+}
+
+.hijo2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    position: relative;
+    top: 200px;
+}
+
+.padre2 {
+    width: 100vw;
+    height: 4000px;
+    background-color: rgb(208, 230, 219);    
+}

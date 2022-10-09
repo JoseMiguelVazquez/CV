@@ -1,0 +1,172 @@
+
+/*RESET*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*BODY*/
+
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    color:rgb(1, 46, 59);
+}
+
+header {
+    background-color:rgb(94, 196, 214);
+    height: 200px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.titulo {
+    text-align: center;
+}
+
+.titulo h1 {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.titulo h2 {
+    font-weight: 400;
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+main {
+    display: flex;
+    justify-content: stretch;
+    flex-flow: row nowrap;
+}
+
+.leftColumn {
+    background-color:azure;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 60%;
+    text-align: justify;
+    padding: 0 20px;
+    justify-content: space-evenly;
+
+}
+
+.leftColumn>section {
+    padding-top: 20px;
+}
+
+.leftColumn>section:last-of-type {
+    padding-bottom: 20px;
+}
+
+.summaryText {
+    padding-top: 20px;
+}
+
+.work {
+    display: flex;
+    flex-flow: column nowrap; 
+    justify-content: space-evenly;     
+}
+
+.work>article {
+    padding-top: 20px;
+}
+
+.studies {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+}
+
+.studies>article {
+    padding-top: 20px;
+}
+
+.rightColumn {
+    background-color: rgb(0, 68, 88);
+    border: 1px solid black;
+    display: flex;
+    flex-flow: column nowrap;
+    width: 40%;
+    text-align: justify;
+    padding: 0 20px 0 20px;
+    justify-content: space-evenly;
+    color: rgb(233, 245, 252);
+}
+
+.rightColumn>section {
+    padding-top: 20px;
+}
+
+.image {
+    text-align: center;
+}
+
+.image-profile {
+    min-width: 100px;
+    max-width: 30%;
+    height: auto;
+    /*object-fit: contain;*/
+}
+
+.skills {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    font-size: 13px;
+}
+
+.skills>article {
+    margin-bottom: 25px;
+}
+
+.smallTitle {
+    font-size: 17px;
+}
+
+/*FOOTER*/
+
+footer {
+    background-color:rgb(94, 196, 214);    
+    width: auto;
+    height: 150px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.footerText {
+    font-size: 15px;
+}
+
+footer>section {
+    margin: 0 5px 0 5px;
+}
+
+hr {
+    border-color: rgb(11, 14, 32); 
+    height: 2px;
+}
